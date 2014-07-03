@@ -1,4 +1,4 @@
-#To calculate the length of the line
+#to calculate the length of the line
 class Coordinates
   def initialize(x1,y1,x2,y2)
     @x1=x1

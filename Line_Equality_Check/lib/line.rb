@@ -1,4 +1,4 @@
-
+#checking for the equality of two lines
 class Line
 
   def initialize(x1, y1, x2, y2)
