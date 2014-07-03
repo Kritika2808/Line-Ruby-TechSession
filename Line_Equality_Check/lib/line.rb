@@ -9,7 +9,7 @@ class Line
 
   end
 
-  def ==(line)
+  def == line
 
     if (@x1 == line.x1 && @x2 == line.x2 && @y1 == line.y1 && @y2 == line.y2)
       true
@@ -19,6 +19,22 @@ class Line
       false
     end
 
+  end
+
+  def x1
+    @x1
+  end
+
+  def y1
+    @y1
+  end
+
+  def x2
+    @x2
+  end
+
+  def y2
+    @y2
   end
 
 end
